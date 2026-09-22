@@ -88,6 +88,8 @@ header p{
 }
 
 
+
+
 /* =========================
    CENTER TITLE
 ========================= */
@@ -125,6 +127,20 @@ header p{
     font-weight: 400;
 
     white-space: nowrap;
+}
+
+/* College Banner */
+.college-banner {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.college-banner img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
 }
 
 /* =========================
@@ -861,6 +877,8 @@ tr:hover{
     background: #e52b2b;
     transform: translateY(-2px);
 }
+
+
 /* =========================================
    MITS FOOTER
 ========================================= */
@@ -1024,6 +1042,7 @@ tr:hover{
 
     min-width: 20px;
 }
+
 
 
 /* =========================================
